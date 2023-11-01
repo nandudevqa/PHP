@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-31T14:46:59 IST" name="Suite" finished-at="2023-10-31T14:47:08 IST" duration-ms="8901">
+  <suite started-at="2023-11-01T10:44:31 IST" name="Suite" finished-at="2023-11-01T10:44:39 IST" duration-ms="8323">
     <groups>
     </groups>
-    <test started-at="2023-10-31T14:46:59 IST" name="Test" finished-at="2023-10-31T14:47:08 IST" duration-ms="8901">
+    <test started-at="2023-11-01T10:44:31 IST" name="Test" finished-at="2023-11-01T10:44:39 IST" duration-ms="8323">
       <class name="PhpGroupware_package.PHP_01">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:PhpGroupware_package.PHP_01@27406a17]" started-at="2023-10-31T14:47:00 IST" name="setup" finished-at="2023-10-31T14:47:07 IST" duration-ms="7340" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:PhpGroupware_package.PHP_01@71d44a3]" started-at="2023-11-01T10:44:31 IST" name="setup" finished-at="2023-11-01T10:44:37 IST" duration-ms="6455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="f1()[pri:0, instance:PhpGroupware_package.PHP_01@27406a17]" started-at="2023-10-31T14:47:07 IST" name="f1" finished-at="2023-10-31T14:47:07 IST" duration-ms="8" status="PASS">
+        <test-method signature="f1()[pri:0, instance:PhpGroupware_package.PHP_01@71d44a3]" started-at="2023-11-01T10:44:37 IST" name="f1" finished-at="2023-11-01T10:44:37 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:PhpGroupware_package.PHP_01@27406a17]" started-at="2023-10-31T14:47:07 IST" name="tearDown" finished-at="2023-10-31T14:47:08 IST" duration-ms="1256" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PhpGroupware_package.PHP_01@71d44a3]" started-at="2023-11-01T10:44:37 IST" name="tearDown" finished-at="2023-11-01T10:44:39 IST" duration-ms="1558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
