@@ -4,19 +4,22 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import PO.phpGroupware;
+
 public class tc_01 extends base_class{
 	@Test
 	public void f() throws InterruptedException {
 
+		phpGroupware pg=new phpGroupware(d);
 
+		pg.username_input();
+		Thread.sleep(1000);
+		pg.password_input();
+		Thread.sleep(1000);
+		pg.click_login();		
 
-		d.findElement(By.xpath("//input[@name='login']")).sendKeys("nandu.ak");
-		d.findElement(By.xpath("//input[@name='passwd']")).sendKeys("test@123");
+		System.out.println("logged in");
 
-		d.findElement(By.xpath("//input[@type='submit']")).click();
-
-		System.out.println("login");
-		
 		Thread.sleep(3000);
 
 		String expected_user= d.findElement(By.xpath("(//b)[1]")).getText();
